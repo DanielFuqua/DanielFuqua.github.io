@@ -1,0 +1,17 @@
+.tech-icon {
+  font-size: 100px;
+}
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.technology {
+  text-align: center;
+  margin: 40px;
+}
+
+.technology h4 {
+  color: #999999;
+}
