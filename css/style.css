@@ -11448,6 +11448,12 @@ h5,
   z-index: 1;
 }
 
+@media screen and (max-width: 600px) {
+  .img-about {
+    height: 430px;
+  }
+}
+
 .ftco-about ul.about-info {
   display: inline-block;
   padding: 0;
