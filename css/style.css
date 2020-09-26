@@ -11447,10 +11447,19 @@ h5,
   position: relative;
   z-index: 1;
 }
+.media-query {
+  width: 100%;
+}
 
 @media screen and (max-width: 600px) {
   .img-about {
     height: 430px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .media-query {
+    width: 100vw !important;
   }
 }
 
