@@ -1,3 +1,8 @@
+.project-centered {
+  display: flex !important;
+  justify-content: center !important;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -1215,10 +1220,12 @@ pre code {
     max-width: 75%;
   }
   .col-md-10 {
-    -webkit-box-flex: 0;
+    /* -webkit-box-flex: 0;
     -ms-flex: 0 0 83.33333%;
-    flex: 0 0 83.33333%;
+    flex: 0 0 83.33333%; */
     max-width: 83.33333%;
+    display: flex;
+    justify-content: center;
   }
   .col-md-11 {
     -webkit-box-flex: 0;
